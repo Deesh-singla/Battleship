@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: linear-gradient(90deg, rgb(31, 38, 61) 0%, rgb(47, 61, 99) 29%, rgb(43, 55, 92) 76%, rgb(31, 38, 61) 100%);
+    background-color: rgb(31, 38, 61);
+    color: rgb(237, 196, 115);
+}
+
+img {
+    height: 200px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 10px;
+}
+
+button {
+    background-color: rgb(237, 196, 115);
+    border: 0px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}

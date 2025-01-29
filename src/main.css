@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(31, 38, 61);
+    color: rgb(237, 196, 115);
+}
+
+img {
+    height: 200px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.areena {
+    height: 325px;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    border: 2px solid white;
+}
+
+.box {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#areena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+#compAreena div {
+    cursor: pointer;
+    color: rgb(31, 38, 61);
+    /* color:aqua; */
+}
+
+#compAreena .box:hover {
+    outline: 3px solid greenyellow;
+}
+
+.attack {
+    background-color: rgb(237, 196, 115);
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.missed {
+    font-size: 25px;
+    background-color: rgb(47, 61, 99);
+}
